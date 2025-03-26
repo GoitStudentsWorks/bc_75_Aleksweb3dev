@@ -21,9 +21,6 @@
   }
 }
 
-/*TODO 1: Fix container for my section*/
-/*TODO 2: Ask about padding-right in my CSS*/
-
 .about-container {
   width: 335px;
   padding-right: 20px;
@@ -151,6 +148,7 @@
   line-height: 1.28571;
   text-align: center;
   color: #fbfbfb;
+  max-width: 160px;
 
   border-radius: 16px;
   min-width: 160px;
