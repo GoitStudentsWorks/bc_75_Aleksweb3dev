@@ -95,9 +95,6 @@
   }
 }
 
-.about-text-list-item {
-}
-
 @media screen and (min-width: 1280px) {
 }
 
@@ -132,12 +129,6 @@
 @media screen and (min-width: 768px) {
   .about-section-link-container {
     padding-bottom: 80px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .about-section-link-container {
-    /* padding-bottom: 80px; */
   }
 }
 
@@ -191,7 +182,4 @@
     margin-left: 0;
     margin-right: 0;
   }
-}
-
-.about-image {
 }
