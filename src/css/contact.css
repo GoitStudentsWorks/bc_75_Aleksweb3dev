@@ -50,7 +50,7 @@
   .contact-us-title {
     margin-bottom: 40px;
     font-size: 48px;
-    line-height: 0.91667;
+    line-height: 0.91;
   }
 }
 /*DESKTOP*/
@@ -90,7 +90,7 @@
 .contact-us-text {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
@@ -115,8 +115,7 @@
 /*TABLET*/
 @media screen and (min-width: 768px) {
   .contact-us-input {
-    padding: 16px 315px 16px 16px;
-    /* width: 460px; */
+    padding: 16px 16px;
     height: 52px;
     padding: 16px 18px;
   }
@@ -128,7 +127,7 @@
 .contact-us-input::placeholder {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   color: #0c0c0c;
 }
 .textarea-comment {
@@ -156,7 +155,7 @@
 .textarea-comment::placeholder {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   color: #0c0c0c;
 }
 /*TABLET*/
@@ -188,7 +187,7 @@
   height: 42px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
 }
