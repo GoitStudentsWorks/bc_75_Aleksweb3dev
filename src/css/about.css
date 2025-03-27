@@ -109,19 +109,6 @@
   }
 }
 
-.about-section-link-container {
-}
-
-@media screen and (min-width: 768px) {
-  .about-section-link-container {
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .about-section-link-container {
-  }
-}
-
 .about-section-link {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
