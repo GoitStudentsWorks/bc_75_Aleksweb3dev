@@ -1,40 +1,27 @@
-.about-section {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-@media screen and (min-width: 768px) {
-  .about-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-}
-
 @media screen and (min-width: 1280px) {
   .about-section {
     max-width: 1150px;
     margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
     display: flex;
+    align-items: center;
     gap: 40px;
   }
 }
 
 .about-container {
   width: 335px;
-  padding-right: 20px;
-  padding-left: 20px;
   margin-bottom: 20px;
   background-color: #f3f3f3;
   border-radius: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .about-container {
     width: 704px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin-bottom: 40px;
   }
 }
@@ -42,14 +29,13 @@
 @media screen and (min-width: 1280px) {
   .about-container {
     width: 580px;
-    height: 532px;
+    padding-left: 60px;
     margin-right: 0;
     margin-bottom: 0;
     padding-right: 0px;
     margin-left: 0;
     background-color: #f3f3f3;
     border-radius: 30px;
-    margin-bottom: 20px;
   }
 }
 
@@ -60,20 +46,21 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  padding-top: 40px;
   margin-bottom: 28px;
 }
 
 @media screen and (min-width: 768px) {
   .about-section-title {
     font-size: 48px;
-    line-height: 0.91667;
-    padding-top: 80px;
+    line-height: 0.92;
     margin-bottom: 40px;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  .about-section-title {
+    padding-top: 0;
+  }
 }
 
 .about-text-list {
@@ -91,7 +78,7 @@
 
 @media screen and (min-width: 1280px) {
   .about-text-list {
-    margin-bottom: 55px;
+    margin-bottom: 40px;
   }
 }
 
@@ -103,7 +90,7 @@
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
@@ -123,12 +110,15 @@
 }
 
 .about-section-link-container {
-  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .about-section-link-container {
-    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-section-link-container {
   }
 }
 
@@ -136,7 +126,7 @@
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
   max-width: 160px;

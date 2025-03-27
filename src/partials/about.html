@@ -1,4 +1,4 @@
-<section class="about-section" id="about-us">
+<section class="section about-section" id="about-us">
   <div class="container about-container">
     <h2 class="about-section-title">About Us</h2>
     <ul class="about-text-list">
@@ -19,12 +19,25 @@
       </li>
     </ul>
     <div class="about-section-link-container">
-      <!-- Add link-->
-      <a class="about-section-link" href="#">View catalog</a>
+      <a class="about-section-link" href="#catalog">View catalog</a>
     </div>
   </div>
   <div class="container about-image-container">
     <picture class="about-picture-list">
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ../img/desktop/about-watch-min.jpg    1x,
+          ../img/desktop/about-watch@2x-min.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ../img/tablet/about-watch-min.jpg    1x,
+          ../img/tablet/about-watch@2x-min.jpg 2x
+        "
+      />
       <source
         media="(max-width: 767px)"
         srcset="
@@ -33,21 +46,6 @@
         "
       />
 
-      <source
-        media="(max-width: 1279px)"
-        srcset="
-          ../img/tablet/about-watch-min.jpg    1x,
-          ../img/tablet/about-watch@2x-min.jpg 2x
-        "
-      />
-
-      <source
-        media="(min-width: 1280px)"
-        srcset="
-          ../img/desktop/about-watch-min.jpg    1x,
-          ../img/desktop/about-watch@2x-min.jpg 2x
-        "
-      />
       <img
         class="about-image"
         src="../img/desktop/about-watch-min.jpg"
