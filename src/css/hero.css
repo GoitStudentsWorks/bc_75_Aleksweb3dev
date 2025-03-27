@@ -223,6 +223,12 @@ img {
     height: 44px;
     display: inline-block;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hero-img-list-item:hover .hero-avatars {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (min-width:768px) {
@@ -243,6 +249,7 @@ img {
 
 .hero-img-list-item {
     margin-left: -12px;
+    transition: transform 0.3s ease-in-out;
 }
 
 @media screen and (min-width:768px) {
@@ -278,9 +285,6 @@ img {
     }
 }
 
-
-
-
 .hero-scroll-down {
     font-weight: 500;
     font-size: 14px;
@@ -290,7 +294,12 @@ img {
     text-decoration-skip-ink: none;
     color: #0c0c0c;
     width: 72px;
+    cursor: pointer;
+    
+    
+   
 }
+
 
 @media screen and (min-width:768px) {
     .hero-scroll-down {
