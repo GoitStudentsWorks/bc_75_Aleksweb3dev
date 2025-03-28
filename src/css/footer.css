@@ -123,11 +123,11 @@ a {
 .footer-line {
   stroke-width: 1px;
   stroke: rgba(251, 251, 251, 0.1);
-  margin: 24px 0;
-}
-.footer-line.tab,
-.footer-line.pc {
-  display: none;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 100%;
+  height: 2px;
+  display: block;
 }
 
 .footer-copy-links-wrapper {
@@ -235,14 +235,6 @@ a {
     font-size: 14px;
     line-height: 1.3;
   }
-
-  .footer-line,
-  .footer-line.pc {
-    display: none;
-  }
-  .footer-line.tab {
-    display: block;
-  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -271,13 +263,6 @@ a {
   .footer-nav {
     width: 505px;
     gap: 40px;
-  }
-  .footer-line,
-  .footer-line.tab {
-    display: none;
-  }
-  .footer-line.pc {
-    display: block;
   }
   .footer-text {
     order: 2;
