@@ -7,6 +7,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
+}
+@media screen and (min-width: 768px) {
+  .header-nav {
+    padding: 28.5px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-nav {
+    padding: 25.5px 0;
+  }
 }
 .header-logo {
   display: flex;
@@ -14,7 +25,6 @@
   justify-self: flex-start;
   width: 90px;
   height: 19px;
-  padding: 20px auto;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -22,7 +32,6 @@
 }
 @media screen and (min-width: 768px) {
   .header-logo {
-    padding: 26px 0;
     font-size: 20px;
   }
 }
@@ -84,6 +93,7 @@
 }
 .header-social-icon {
   fill: #0c0c0c;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-social-link:hover .header-social-icon,
 .header-social-link:focus .header-social-icon {
