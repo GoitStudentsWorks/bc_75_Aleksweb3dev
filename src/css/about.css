@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 768px) {
   .about-container {
-    width: 704px;
+    max-width: 704px;
     padding-top: 80px;
     padding-bottom: 80px;
     margin-bottom: 40px;
@@ -153,7 +153,7 @@
 
 @media screen and (min-width: 768px) {
   .about-image-container {
-    width: 704px;
+    max-width: 704px;
     padding-right: 0;
   }
 
@@ -164,7 +164,7 @@
 
 @media screen and (min-width: 1280px) {
   .about-image-container {
-    width: 530px;
+    max-width: 530px;
     margin-left: 0;
     margin-right: 0;
   }
