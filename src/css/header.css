@@ -287,11 +287,10 @@ header .header-mobile-menu.is-open {
 .header-mobile-menu-social-icon {
   fill: #fbfbfb;
   opacity: 0.7;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-mobile-menu-social-link:hover .header-mobile-menu-social-icon,
 .header-mobile-menu-social-link:focus .header-mobile-menu-social-icon {
-  fill: #fbfbfb;
   opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* #endregion header-mobile-menu */
