@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -62,3 +66,5 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
