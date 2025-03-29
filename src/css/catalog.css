@@ -69,11 +69,7 @@
   padding: 24px 28px;
 }
 .catalog-list-item img {
-  transition: transform 300ms ease;
-}
-
-.catalog-list-item:hover img {
-  transform: scale(1.15);
+  transition: transform 350ms ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
@@ -103,6 +99,11 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.catalog-wrapper-photo:hover img {
+  transform: scale(1.15);
+  cursor: pointer;
 }
 
 .catalog-list-about-item {
