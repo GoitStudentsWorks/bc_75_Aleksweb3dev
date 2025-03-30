@@ -9,6 +9,10 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  min-width: 320px;
+}
 
 body {
   font-family: 'Gilroy', sans-serif;
@@ -66,5 +70,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-
