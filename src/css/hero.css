@@ -1,9 +1,13 @@
+.hero-text-and-avatar {
+    margin-bottom: 28px;
+}
 
 @media screen and (min-width:768px) {
    .hero-text-and-avatar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 40px;
 
 }
 }
@@ -64,7 +68,7 @@
     align-items: self-end;
     gap: 155px;
     max-width: 335px;
-    margin-bottom: 28px;
+    
 }
 
 @media screen and (min-width:768px) {
