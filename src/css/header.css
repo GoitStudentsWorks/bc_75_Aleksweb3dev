@@ -24,20 +24,21 @@
   font-size: 16px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  padding-top: 27.5px;
-  padding-bottom: 27.5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: block;
 }
 @media screen and (min-width: 768px) {
   .header-logo {
     font-size: 20px;
-    padding-top: 27.5px;
-    padding-bottom: 27.5px;
+    padding-top: 23px;
+    padding-bottom: 23px;
   }
 }
 @media screen and (min-width: 1280px) {
   .header-logo {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 27.5px;
+    padding-bottom: 27.5px;
   }
 }
 .header-nav-list {
